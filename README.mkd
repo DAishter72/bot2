@@ -1,0 +1,39 @@
+# Clone project
+
+```bash
+git clone https://github.com/DAishter72/primer-bot
+```
+
+## Create VENV
+
+```bash
+python -m venv nameproject
+```
+
+## Activate VENV
+
+#### powershell
+
+```bash
+.venv\Scripts\Activate.ps1
+```
+
+#### Window Bash
+
+```bash
+source .venv/Scripts/activate
+```
+
+## Install depend
+
+```bash
+pip install -r requirements.txt
+```
+
+## Create .ENV
+
+## Run project
+
+```bash
+python main.py
+```
